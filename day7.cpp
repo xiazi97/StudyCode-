@@ -17,7 +17,7 @@ int main()
         if(str[i-1] != str[i])
         {
             len++;
-            res = max(len,res);    //比较后更新最大值
+            res = max(len,res);    //比较后更新连续最大值
         }
         else
             len = 1;
