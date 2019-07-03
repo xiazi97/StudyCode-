@@ -7,9 +7,10 @@
 using namespace std;
 int main()
 {
+string str1,str2;
+  
 // 注意这里不能使用cin接收，因为cin遇到空格就结束了。
 // oj中IO输入字符串最好使用getline。
-string str1,str2;
 //cin>>str1;
 //cin>>str2;
 getline(cin, str1);
