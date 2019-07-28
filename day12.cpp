@@ -14,10 +14,10 @@ void solution(vector<int>& arr, int len) {
 	odd = 1;
 	even = 0;
 	while (even < len && odd < len) {
-		if (arr[even] % 2 == 0) {
+		if (arr[even] % 2 == 0) {    //even代表偶数下标
 			even = even + 2;
 		}
-		if (arr[odd] % 2 == 1) {
+		if (arr[odd] % 2 == 1) {     //odd代表奇数下标
 			odd = odd + 2;
 		}
 		if (even < len && odd < len) {
