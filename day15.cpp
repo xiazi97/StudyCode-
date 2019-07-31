@@ -30,7 +30,7 @@ int main()
 	for (int i = 0; i < m; ++i) {
 		int te;
 		cin >> te;
-		v[te - 1] += 1;
+		v[te - 1] += 1;   //位置处++
 	}
 	vector<int>::iterator small = min_element(begin(v), end(v));   //求取vector中最小值
 	cout << *small << endl;
