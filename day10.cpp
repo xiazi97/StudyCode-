@@ -15,7 +15,7 @@ int main()
 	string v1 = x1; 
 	string v2 = x2;
 	for (int i = 0; i<k1 - 1; ++i)
-		v1.append(x1);
+		v1.append(x1);  //利用追加直接操作，然后比较追加后的结果
 	for (int i = 0; i<k2 - 1; ++i)
 		v2.append(x2);
 
