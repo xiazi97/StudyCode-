@@ -14,7 +14,7 @@ void solution(vector<int>& arr, int len) {
 	odd = 1;
 	even = 0;
 	while (even < len && odd < len) {
-		if (arr[even] % 2 == 0) {    //even代表偶数下标
+		if (arr[even] % 2 == 0) {    //even代表偶数下标，如果偶数位为偶数则不做处理
 			even = even + 2;
 		}
 		if (arr[odd] % 2 == 1) {     //odd代表奇数下标
