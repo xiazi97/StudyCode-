@@ -31,7 +31,7 @@ int main()
 				res++;
 			}
 			else
-				i++;
+				i++;            //如果不是.就跳过
 		}
 		cout << res << endl;
 	}
