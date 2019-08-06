@@ -48,7 +48,7 @@ int main()
 	goclass = hi * 60 + mi;
 	for (int i = 0; i < N; i++)
 	{
-		if (getup[i] + x <= goclass && getup[i] > res)
+		if (getup[i] + x <= goclass && getup[i] > res)  //比较时间
 			res = getup[i];
 	}
 	cout << res / 60 << ' ' << res % 60;
